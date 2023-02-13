@@ -11,20 +11,21 @@
     <div class="d-flex w-100 h-100">
       <div class="col-12 col-md-3 bg-light p-3 border border-primary">
          <h1>Weather API</h1>
-         <input type="text" placeholder="City" id="city" class="d-block mb-1 w-100">
-         <input type="text" placeholder="State" id="state" class="d-block mb-1 w-100">
+         <input type="text" placeholder="City (ex: Kansas_City)" id="city" class="d-block mb-1 w-100">
+         <input type="text" placeholder="State (ex: MO)" id="state" class="d-block mb-1 w-100">
          <button class="btn btn-primary mb-2 w-100" id="btn">Search</button>
          <div class="" style="color: white;">
+            <p style="color: black;">Past Searches:</p>
             <ul id="pastSearchContainer"></ul>
          </div>
       </div>
       <div class="col-12 col-md-9 bg-primary p-3 border border-secondary" style="color: white;">
-        <h2>Today's Forecast:</h2>
-        <div class="border border-secondary m-2 p-2" id="weather1">
+        <h4 style="color: black;">Today's Forecast:</h2>
+        <div class="border border-secondary my-1" id="weather1">
           
         </div>
-        <h2>Your 5-Day Weather Forecast:</h2>
-        <div class="border border-primary" id="weather2">
+        <h4 style="color: black;">Your Next Four Days:</h2>
+        <div class="border border-success my-1 row" id="weather2" style="color: black;">
 
         </div>
       </div>
